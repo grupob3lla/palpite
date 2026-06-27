@@ -181,13 +181,13 @@ h1.title{
       </div>
       <div class="versus serif">×</div>
       <div class="time">
-        <div class="flag"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3MiA1MCI+PHJlY3Qgd2lkdGg9IjcyIiBoZWlnaHQ9IjUwIiBmaWxsPSIjMDA2NUJGIi8+PHBhdGggZD0iTTAgMCBMNzIgNTAgTTcyIDAgTDAgNTAiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSI5Ii8+PC9zdmc+" alt="Escócia" class="flagimg"></div>
-        <div class="nome" id="adversario">ESCÓCIA</div>
+        <div class="flag"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3MiA1MCI+PHJlY3Qgd2lkdGg9IjcyIiBoZWlnaHQ9IjUwIiBmaWxsPSIjZmZmIi8+PGNpcmNsZSBjeD0iMzYiIGN5PSIyNSIgcj0iMTIiIGZpbGw9IiNCQzAwMkQiLz48L3N2Zz4=" alt="Japão" class="flagimg"></div>
+        <div class="nome" id="adversario">JAPÃO</div>
       </div>
     </div>
     <div class="jogo-info">
-      <b id="data-jogo">24 de junho</b> · <span id="hora-jogo">19h</span> (Brasília)<br>
-      <span id="local-jogo" style="font-size:11px;color:var(--txt3)">Hard Rock Stadium · Miami</span>
+      <b id="data-jogo">29 de junho</b> · <span id="hora-jogo">14h</span> (Brasília)<br>
+      <span id="local-jogo" style="font-size:11px;color:var(--txt3)">NRG Stadium · Houston</span>
     </div>
     <div class="countdown" id="countdown">Palpites abertos · fecham 1h antes do jogo</div>
   </div>
@@ -195,7 +195,7 @@ h1.title{
   <!-- FORMULÁRIO DE PALPITE -->
   <div class="card">
     <h2 class="serif">📝 Meu Palpite</h2>
-    <div class="sub">Rodada · <span id="rodada-label">3ª Rodada vs Escócia</span></div>
+    <div class="sub">Rodada · <span id="rodada-label">Mata-mata vs Japão</span></div>
 
     <div class="field">
       <label>Selecione seu salão <span class="req">*</span></label>
@@ -272,8 +272,8 @@ h1.title{
         </div>
         <div class="placar-x serif">×</div>
         <div class="placar-box">
-          <div class="mini-flag"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3MiA1MCI+PHJlY3Qgd2lkdGg9IjcyIiBoZWlnaHQ9IjUwIiBmaWxsPSIjMDA2NUJGIi8+PHBhdGggZD0iTTAgMCBMNzIgNTAgTTcyIDAgTDAgNTAiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSI5Ii8+PC9zdmc+" alt="Escócia" class="flagimg-mini"></div>
-          <div class="mini-nome" id="adv-mini">Escócia</div>
+          <div class="mini-flag"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3MiA1MCI+PHJlY3Qgd2lkdGg9IjcyIiBoZWlnaHQ9IjUwIiBmaWxsPSIjZmZmIi8+PGNpcmNsZSBjeD0iMzYiIGN5PSIyNSIgcj0iMTIiIGZpbGw9IiNCQzAwMkQiLz48L3N2Zz4=" alt="Japão" class="flagimg-mini"></div>
+          <div class="mini-nome" id="adv-mini">Japão</div>
           <input type="number" id="gols-adv" min="0" max="20" placeholder="–" inputmode="numeric">
         </div>
       </div>
@@ -285,9 +285,9 @@ h1.title{
         <option value="">Escolha um jogador...</option>
         <option value="Vini Jr">Vini Jr</option>
         <option value="Matheus Cunha">Matheus Cunha</option>
-        <option value="Rayan">Rayan</option>
-        <option value="Neymar">Neymar</option>
         <option value="Rodrygo">Rodrygo</option>
+        <option value="Neymar">Neymar</option>
+        <option value="Rayan">Rayan</option>
         <option value="Luiz Henrique">Luiz Henrique</option>
         <option value="Lucas Paquetá">Lucas Paquetá</option>
         <option value="Bruno Guimarães">Bruno Guimarães</option>
@@ -374,15 +374,15 @@ const URL_PLANILHA = "https://script.google.com/macros/s/AKfycbxFTXt6xkEbg4QD3TL
    Para trocar os jogadores do campo "1º gol", edite as <option>
    dentro de <select id="artilheiro"> lá em cima no HTML. ---- */
 const JOGO = {
-  adversario: "ESCÓCIA",
-  bandeira: "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-  data: "24 de junho",
-  hora: "19h",
-  local: "Hard Rock Stadium · Miami",
-  rodada: "3ª Rodada vs Escócia",
+  adversario: "JAPÃO",
+  bandeira: "🇯🇵",
+  data: "29 de junho",
+  hora: "14h",
+  local: "NRG Stadium · Houston",
+  rodada: "Mata-mata vs Japão",
   missao: "Aplicar o \"Acerte o Placar\" com minhas clientes no Stories no dia do jogo.",
   // fechamento do palpite — no apito inicial (formato: ano, mês-1, dia, hora, min)
-  fecha: new Date(2026, 5, 24, 19, 0, 0)
+  fecha: new Date(2026, 5, 29, 14, 0, 0)
 };
 
 /* ---- Aplica dados do jogo na tela ---- */
@@ -465,7 +465,7 @@ function enviar(){
     return;
   }
   if(golsBr==="" && golsAdv===""){
-    erro.textContent = "Digite o placar: quantos gols o Brasil faz e quantos a Escócia faz.";
+    erro.textContent = "Digite o placar: quantos gols o Brasil faz e quantos o Japão faz.";
     erro.classList.add('show');
     erro.scrollIntoView({behavior:'smooth', block:'center'});
     return;
